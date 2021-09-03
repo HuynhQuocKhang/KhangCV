@@ -1,0 +1,88 @@
+.content-education-bg{
+    background-color: #000;
+}
+
+.content-education > .section-heading{
+    color:#fff;
+}
+
+.content-education{
+    width:900px;
+    max-width: 100%;
+    min-height:450px;
+    padding:40px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.school-info{
+    width:100%;
+    height: 46px;
+    text-align: center;
+}
+
+#school-nav{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    line-height: 1.6;
+    list-style-type: none;
+    
+}
+#school-nav > li{
+    display:inline-block;
+    line-height: 46px;
+    width: 200;
+    padding: 0 24px;
+    
+}
+#school-nav > li > a{
+    text-decoration: none;
+    text-size-adjust: 19px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#school-nav > li:hover > a{
+    font-style: italic;
+}
+
+
+
+.school-details{
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.school-details-heading{
+    font-weight: bold;
+}
+.school-details > li  {
+    display: none;
+    width:900px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#school-nav li:hover li{
+    display: block;
+    
+    position: absolute;
+    left:0;
+    right:0;
+}
+
+.education-img{
+    padding-top: 200px;
+    background: url('https://github.com/HuynhQuocKhang/ImageCV/blob/master/Untitled-1.png?raw=true') top center / cover no-repeat;
+    background-size: 300px;
+    opacity: 30%;
+}
+
+
+.education-mobile{
+    display:block;
+    height: 0px;
+}

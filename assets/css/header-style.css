@@ -1,0 +1,80 @@
+/* Begin Header */
+#header{
+    background-color: #000;
+    height: 46px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    opacity: 80%;
+}
+.nav-arrow-down{
+    font-size:19px;
+}
+/* Nav */
+
+#nav{
+    font-weight: 700;
+    float:left;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #000;
+    height: 46px;
+}
+#nav > li{
+    display: inline-block;
+    position: relative;
+}
+#nav li a{
+    text-decoration: none; 
+    display:block;
+}
+#nav >li> a{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 46px;
+    padding:0 24px;
+}
+/* Subnav */
+.menu-btn:hover,.subnav li:hover a,#nav >li:hover> a{
+    color: #333;
+    background-color: #ccc;
+    display: block;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+.subnav {
+    position: absolute;
+    top:100%;
+    list-style-type: none;
+    min-width: 200px;
+    display: none;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.subnav li a {
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding:0 12px ;
+    width: 100%;
+}
+
+.menu-btn {
+     float:right;
+    width: 10%;
+    text-align: center;
+    display: none;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 46px;
+}
+
+.ti-menu{
+    font-size: 19px;
+}
+/* End Header */

@@ -1,0 +1,74 @@
+#content{
+    width: 900px;
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-heading{
+    text-transform: uppercase ;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 7px;
+    padding: 13px 0px;
+}
+.section-sub-heading{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    color:rgb(131, 129, 129);
+    letter-spacing: 8px;
+    padding: 13px 0px;
+}
+
+.content-information{
+    width:100%;
+    min-height: 200px;
+    padding-top:13px;
+}
+.info-avt img{
+    height: 100%;
+}
+
+.info-avt{
+    width: 45%;
+    height: 160px;
+    float:left;
+    padding: 0 25%;
+}
+
+
+.info{
+    width: 50%;
+    height: 160px;
+    float:left;
+}
+
+
+.info-name,
+.info-dob,
+.info-address,
+.info-phonenumber,
+.info-email{padding:5px 0;}
+
+#content .about-text{
+    font-weight: 100;
+    text-align: justify;
+    line-height: 1.6;
+    padding:13px 0;
+}
+.clear{
+    clear: both;
+}
+#hobby-list{
+    margin-top: 36px;
+    text-align: center;
+    
+}
+.content-hobby .hobby-items{
+    float:left; 
+    width: 25%;
+    padding: 0 13px;
+}
+
+

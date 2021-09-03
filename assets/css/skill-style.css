@@ -1,0 +1,89 @@
+.content-skill{
+    background-color: #fff;
+    padding: 40px 0;
+    width: 900px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-list{
+    margin:32px 0;
+}
+.skill-code-list{
+    list-style-type: none;
+    color: #000;
+    padding: 0 15%;
+}
+
+.code-item{
+    font-weight: bold;
+    box-sizing: border-box;
+    border-bottom: 1px solid #888;
+}
+
+.code-item .skillpoint-name{
+    width: 24%;
+    line-height: 39px;
+    float: left;
+    text-align: right;
+    
+}
+.skillpoint-image{
+    width: 70%;
+    height: 39px;
+    display: inline-block;
+    
+}
+.skillpoint-image .skill-point-img{
+    height: 100% ;
+    padding-left: 10%;
+}
+
+.language-list{
+   margin-left: 5%;
+   list-style-type: none;
+}
+
+
+
+.language-img{
+    height: 210px;
+    width: 210px;
+}
+.language-details{
+    width: 30%;
+    text-align: center;
+    background-color: #000;
+    padding: 16px 16px;
+    margin: 16px 8px;
+    border-radius: 5px;
+    float:left;
+}
+.language-name {
+    text-align: center;
+    color: #fff;
+    padding-top: 16px;
+}
+.language-text {
+    text-align: justify;
+    min-height: 130px;
+    color: #fff;
+    padding-top:16px;
+}
+.mylanguage{
+    text-align: center;
+    margin: 32px 0;
+    
+}
+.mylanguage-name{
+    width: 50%;
+    float:left;
+    font-weight: bold;
+}
+.mylanguage-name img{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:16px;
+}

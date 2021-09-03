@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* @font-face {
+    font-family: font_CV;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: font_CV_Bold;
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+#main{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,177 @@
+@media (min-width:1001px) {
+    
+}
+
+@media (min-width: 748px) and (max-width: 1000px){
+    #main{
+        font-size: 65%;
+    }
+    #nav {
+        overflow: hidden;
+    }
+    .menu-btn{
+        display: block;
+        line-height: 35px;
+        position: absolute;
+        right:0;
+        width: 35px;
+    }
+    #nav{
+        width: 100%;
+        height: 35px;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav > li > a{
+        text-align: left;
+       line-height: 35px;
+    }
+    #header{
+        height: 35px;
+        overflow: hidden;
+    }
+    #mobile-menu{
+        height: 35px;
+    }
+    #slider .content_slider{width: fit-content;}
+    #content {
+        width: auto;
+    }
+    .content-information{
+        height: 160px;
+       
+    }
+    .info-avt {
+        background-size:50%;
+        padding: 0 15%;
+    }
+    .info{
+        padding: 4% 0px;
+    }
+    #content .about-text{
+        padding: 0px 4%;
+    }
+
+    .content-hobby .hobby-items{
+        width: 50%;
+    }
+    #school-nav{
+        display:none;
+    }
+
+    .education-mobile{
+        color:#fff;
+        text-align: justify;
+        font-size: 19px;
+        line-height: 1.6;
+        padding: 0 8px;
+    }
+    .skillpoint-image {
+        width: 0%;
+        height: 35px;
+        display: table-caption;
+    }
+    .code-item{
+        border:none;
+    }
+    .skill-code-list {
+        padding: 0 25%;
+    }
+    .language-img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .language-details {
+        width: 29%;
+    }
+}
+ 
+@media(max-width: 747px){
+    #main{
+        font-size: 65%;
+    }
+    #nav {
+        overflow: hidden;
+    }
+    .menu-btn{
+        display: block;
+        line-height: 35px;
+        position: absolute;
+        right:0;
+        width: 35px;
+    }
+    #nav{
+        width: 100%;
+        height: 35px;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li > a{
+        text-align: left;
+       line-height: 35px;
+    }
+    #header{
+        height: 35px;
+    }
+    #mobile-menu{
+        height: 35px;
+    }
+    #slider .content_slider{width: fit-content;}
+    #content {
+        width: auto;
+    }
+    .content-information{
+        height: 160px;
+       
+    }
+    .info-avt {
+        background-size:50%;
+        padding: 0 15%;
+    }
+    .info{
+        padding: 4% 0px;
+    }
+    #content .about-text{
+        padding: 0px 4%;
+    }
+
+    .content-hobby .hobby-items{
+        width: 50%;
+    }
+    #school-nav{
+        display:none;
+    }
+
+    .education-mobile{
+        color:#fff;
+        text-align: justify;
+        font-size: 19px;
+        line-height: 1.6;
+        padding: 0 8px;
+    }
+    .skillpoint-image {
+        width: 0%;
+        height: 35px;
+        display: table-caption;
+    }
+    .code-item{
+        border:none;
+    }
+    .skill-code-list {
+        padding: 0 20%;
+    }
+    .language-img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .language-details {
+        width: 29%;
+    }
+}

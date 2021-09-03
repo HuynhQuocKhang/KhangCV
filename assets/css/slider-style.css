@@ -1,0 +1,63 @@
+/* Begin Slider */
+#slider{
+    background: url('https://github.com/HuynhQuocKhang/ImageCV/blob/master/IMG_3169.png?raw=true') top center / cover no-repeat;
+    padding-top: 33.33333333333333333%;
+    max-width: 100%;
+    font-weight: bold;
+    position: relative;
+}
+#slider .content_slider{
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    text-shadow: rgba(0,0,0,2) 1px 0 10px;
+    color: #fff;
+    transform:translateX(-50%);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#slider .slider_name{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+#slider .slider_social{
+    width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#slider .slider_social a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+#a_instagram,#a_facebook{
+    width:200px;
+    height: 30px;
+    padding-top: 3px;
+    padding-left:5px ;
+    float:left;
+
+}
+#a_instagram:hover a{
+    border-bottom:3px solid #ff507f;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 10px;
+    padding:3px 15px;
+    color: #ff255f;
+}
+#a_facebook:hover a
+{
+    width: 500px;
+    border-bottom:3px solid #2E77F7;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 10px;
+    padding:3px 15px;
+    color: #1a57c0;
+}
+/* End Slider */
